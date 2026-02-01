@@ -1,0 +1,24 @@
+A modern hotel room booking platform with Google OAuth authentication for fast and secure room reservations. 
+
+
+StayEase Hotel Booking System Complete!
+bash
+# Terminal 1 - Backend (requires MongoDB running)
+cd backend && npm install && node src/utils/seed.js && npm run dev
+# Terminal 2 - Frontend
+cd frontend && npm install && npm run dev
+
+
+Demo Credentials
+Admin: 
+admin@stayease.com
+ / admin123
+User: 
+user@stayease.com
+ / user123
+Access Points
+
+Frontend: http://localhost:3000
+Backend API: http://localhost:5000/api
+Admin Panel: http://localhost:3000/admin
+
