@@ -2,6 +2,9 @@
 .env
 .env.local
 .env.*.local
+# But include .env.example files
+!.env.example
+!*/.env.example
 
 # Node modules
 node_modules/
